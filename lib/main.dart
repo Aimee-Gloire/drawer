@@ -35,6 +35,43 @@ class HomeScreen extends StatelessWidget {
               bottomRight: Radius.circular(16),
             ),  
           ),
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: const [
+              DrawerHeader(
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                ),
+                child: Text(
+                  'Welcome Aimee',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                  ),
+                ),
+              ),
+              ListTile(
+                leading: Icon(Icons.person),
+                title: Text('Profile'),
+              ),
+              ListTile(
+                leading: Icon(Icons.book),
+                title: Text('Courses'),
+              ),
+              ListTile(
+                leading: Icon(Icons.schedule),
+                title: Text('Timetable'),
+              ),
+              ListTile(
+                leading: Icon(Icons.grade),
+                title: Text('Grades'),
+              ),
+              ListTile(
+                leading: Icon(Icons.settings),
+                title: Text('Settings'),
+              ),
+            ],
+          ),
         ),
         body: const Center(
           child: Text(
