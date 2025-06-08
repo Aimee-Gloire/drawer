@@ -26,6 +26,16 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Student Portal'),
         ),
+        drawer: Drawer(
+          backgroundColor: Colors.blueGrey,
+          elevation: 16,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+              topRight: Radius.circular(16),
+              bottomRight: Radius.circular(16),
+            ),  
+          ),
+        ),
         body: const Center(
           child: Text(
             'Welcome to the Student Portal',
