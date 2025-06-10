@@ -44,7 +44,7 @@ git clone <https://github.com/Aimee-Gloire/drawer.git>
 
 ## Screenshot
 
-![Screenshot:] (drawer_ss.png)
+![Screenshot:](drawer_ss.png)
 
 ---
 
