@@ -1,10 +1,10 @@
-# 🧭 Flutter Drawer Widget Demo – Student Portal App
+# Flutter Drawer Widget Demo – Student Portal App
 
 A tiny Flutter demo app showcasing the `Drawer` widget through a realistic **student portal use-case**. Tap or swipe from the top-left ☰ icon to open the side navigation drawer.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repo:
 
@@ -40,9 +40,11 @@ git clone <https://github.com/Aimee-Gloire/drawer.git>
 - Ensures the contents of the drawer are scrollable if they exceed the screen height.
 - **padding: EdgeInsets.zero**: Removes any default padding, letting content sit flush to the top.
 
+---
+
 ## Screenshot
 
-[Screenshot:] (drawer_ss.png)
+![Screenshot:] (drawer_ss.png)
 
 ---
 
@@ -53,4 +55,3 @@ This app simulates a university or school student portal, where a student can:
 - Tap or swipe to open the drawer menu
 - Access key sections like Profile, Grades, and Settings
 - Experience a personalized greeting and intuitive navigation
-
