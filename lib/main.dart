@@ -11,7 +11,7 @@ class StudentPortalApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Student Portal',
-      home: const HomeScreen(),
+      home: HomeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -42,13 +42,15 @@ class HomeScreen extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.blue,
                 ),
-                child: Text(
+                child: Center(
+                  child: Text(
                   'Welcome Aimee',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 24,
+                    fontSize: 24, 
                   ),
                 ),
+                ) 
               ),
               ListTile(
                 leading: Icon(Icons.person),
